@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: vexora-web-downloader
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: VEXORA_SESSION_SECRET
+        generateValue: true
+      - key: FFMPEG_PATH
+        value: ffmpeg
+      - key: FFPROBE_PATH
+        value: ffprobe
+      - key: VEXORA_MAX_MEDIA_MB
+        value: "500"
+      - key: VEXORA_RATE_LIMIT_MAX
+        value: "300"
+      - key: APP_URL
+        sync: false
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: VEXORA_ALLOWED_HOSTS
+        sync: false

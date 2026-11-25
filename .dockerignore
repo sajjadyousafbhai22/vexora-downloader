@@ -1,0 +1,10 @@
+node_modules
+dist
+vexora-data
+vexora-jobs
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+*.tsbuildinfo

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "fc199391-de43-48f1-9c87-bdb86263475b",
+    "sessionId": "b336add7-a874-43c3-9eec-88efbaaaba37",
+    "title": "flower",
+    "filename": "flower.mp3",
+    "sourceUrl": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+    "domain": "interactive-examples.mdn.mozilla.net",
+    "format": "mp3",
+    "quality": "192k",
+    "fileSizeBytes": 122834,
+    "durationSeconds": 5.1,
+    "resolution": "960x540",
+    "status": "completed",
+    "errorMessage": null,
+    "thumbnailUrl": null,
+    "createdAt": 1795599456128
+  },
+  {
+    "id": "7fc4e3e9-7836-4a0c-81cc-a7162f0fda5f",
+    "sessionId": "309d9730-3daf-408b-bfd6-78d82e535620",
+    "title": "flower",
+    "filename": "flower.mp3",
+    "sourceUrl": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+    "domain": "interactive-examples.mdn.mozilla.net",
+    "format": "mp3",
+    "quality": "192k",
+    "fileSizeBytes": null,
+    "durationSeconds": 5.1,
+    "resolution": "960x540",
+    "status": "cancelled",
+    "errorMessage": "Download cancelled by user.",
+    "thumbnailUrl": null,
+    "createdAt": 1795599434266
+  },
+  {
+    "id": "8d914167-517c-4ac7-ac83-e8433771fee7",
+    "sessionId": "309d9730-3daf-408b-bfd6-78d82e535620",
+    "title": "flower",
+    "filename": "flower.mp4",
+    "sourceUrl": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+    "domain": "interactive-examples.mdn.mozilla.net",
+    "format": "mp4",
+    "quality": "source",
+    "fileSizeBytes": 1128375,
+    "durationSeconds": 5.1,
+    "resolution": "960x540",
+    "status": "completed",
+    "errorMessage": null,
+    "thumbnailUrl": null,
+    "createdAt": 1795599433845
+  }
+]

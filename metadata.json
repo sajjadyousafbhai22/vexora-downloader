@@ -1,0 +1,6 @@
+{
+  "name": "VEXORA",
+  "description": "VEXORA is a secure, responsive web video downloader and in-app media player supporting direct video streams, HLS playlists, and audio extraction.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
